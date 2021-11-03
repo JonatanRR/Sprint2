@@ -1,28 +1,19 @@
 .tablet {
-  width: 80vw;
-  max-width: 600px;
-  /*margin-top: 50px;*/
+  height: 100%;
+  width: 80%;
 }
 
 .mancha-fondo {
-  background-color: #5265E1;
-  margin-top: 60px;
-  margin-left: 150px;
-  height: 50vh;
-  width: 70%;
-  border-bottom-left-radius: 50%;
-  background-position: 70% top;
+  height: 70%;
+  width: 180%;
+  left: 25%;
+  top: 25%;
+  border-radius: 200px;
+  z-index: -1;
 }
 
-@media (min-width: 768px) {
-  .mancha-fondo {
-    background-color: #5265E1;
-    width: 507px;
-    margin-top: 30%;
-    height: 300px;
-    border-bottom-left-radius: 50%;
-    margin-left: 30%;
-  }
+.tabs {
+  height: 30vh;
 }
 
 /*!
