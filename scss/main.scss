@@ -1,9 +1,21 @@
 $primary: #5265E1;
 $secondary: #FA5959;
+$success: #6c757d;
+$danger: #242946;
+$navbar-light-toggler-icon-bg: url(/images/icon-hamburger.svg);
+$accordion-button-icon: url(/images/icon-arrow.svg);
+$form-feedback-icon-invalid: url(/images/icon-error.svg);
 
-.tablet {
-    height: 100%;
-    width: 80%;
+.imagen {
+    width: 70%;
+}
+
+p {
+    color: $success;
+}
+
+.card {
+    margin: 50px;
 }
 
 .mancha-fondo {
@@ -14,8 +26,116 @@ $secondary: #FA5959;
     border-radius: 200px;
     z-index: -1;
 }
-.tabs {
-    height: 30vh;
+
+.mancha-fondo2 {
+    height: 70%;
+    width: 180%;
+    right: 35%;
+    top: 45%;
+    border-radius: 200px;
+    z-index: -1;
+}
+
+.mancha-fondo3 {
+    height: 60%;
+    width: 180%;
+    right: 35%;
+    top: 45%;
+    border-radius: 200px;
+    z-index: -1;
+}
+
+.nav-tabs, .nav-link, .puntos {
+    width: 100%;
+}
+
+.nav-item {
+    width: 33%;
+}
+
+#myTab li button {
+    border: 0px;
+    color:grey;
+}
+
+#myTab li button.active {
+    border-bottom: 5px solid $secondary;
+    color: black;
+}
+
+#myTab li button:hover {
+    color: $secondary;
+}
+
+#accordionFlushExample {
+    border-bottom: 1px solid rgb(216, 215, 215);
+    border-top: 1px solid rgb(216, 215, 215);
+}
+
+.bloque-blanco {
+    height: 200px;
+}
+
+.formulario {
+    height: 300px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.collapse .navbar-nav .nav-item .btn {
+    color: white;
+}
+
+.collapse .navbar-nav .nav-item .btn:hover {
+    background-color: white;
+    color: $secondary;
+}
+
+.botones .btn:hover {
+    background-color: white;
+    color: $primary;
+}
+
+.botones .boton3:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.card-body a:hover {
+    background-color: white;
+    color: $primary;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:hover {
+    color: $secondary;
+}
+
+.boton4 .boton-contacto {
+    color: white;
+}
+
+.boton4 .boton-contacto:hover {
+    color: $secondary;
+    background-color: white;
+}
+
+.pie .pie-opciones li a {
+    color: white;
+}
+.pie .pie-opciones li a:hover {
+    color: $secondary;
+}
+
+
+.redes .rrss:hover {
+    filter: brightness(0) saturate(100%) brightness(0) saturate(100%) invert(61%) sepia(31%) saturate(5891%) hue-rotate(325deg) brightness(100%) contrast(97%);
 }
 
 
