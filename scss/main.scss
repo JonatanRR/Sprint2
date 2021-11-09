@@ -6,7 +6,8 @@ $navbar-light-toggler-icon-bg: url(/images/icon-hamburger.svg);
 $accordion-button-icon: url(/images/icon-arrow.svg);
 $form-feedback-icon-invalid: url(/images/icon-error.svg);
 
-.imagen {
+
+.pic {
     width: 70%;
 }
 
@@ -18,34 +19,34 @@ p {
     margin: 50px;
 }
 
-.mancha-fondo {
+.stain {
     height: 70%;
-    width: 180%;
+    width: 100%;
     left: 25%;
     top: 25%;
     border-radius: 200px;
     z-index: -1;
 }
 
-.mancha-fondo2 {
+.stain2 {
     height: 70%;
-    width: 180%;
+    width: 100%;
     right: 35%;
     top: 45%;
     border-radius: 200px;
     z-index: -1;
 }
 
-.mancha-fondo3 {
+.stain3 {
     height: 60%;
-    width: 180%;
+    width: 100%;
     right: 35%;
     top: 45%;
     border-radius: 200px;
     z-index: -1;
 }
 
-.nav-tabs, .nav-link, .puntos {
+.nav-tabs, .nav-link, .dots {
     width: 100%;
 }
 
@@ -53,30 +54,28 @@ p {
     width: 33%;
 }
 
-#myTab li button {
+.nav-tabs .nav-item .nav-link {
     border: 0px;
     color:grey;
+    &.active {
+        border-bottom: 5px solid $secondary;
+        color: black;
+    }
+    &:hover {
+        color: $secondary;
+    }
 }
 
-#myTab li button.active {
-    border-bottom: 5px solid $secondary;
-    color: black;
-}
-
-#myTab li button:hover {
-    color: $secondary;
-}
-
-#accordionFlushExample {
+.accordion-flush {
     border-bottom: 1px solid rgb(216, 215, 215);
     border-top: 1px solid rgb(216, 215, 215);
 }
 
-.bloque-blanco {
+.white-block {
     height: 200px;
 }
 
-.formulario {
+.contact {
     height: 300px;
 }
 
@@ -90,19 +89,18 @@ li {
 
 .collapse .navbar-nav .nav-item .btn {
     color: white;
+    &:hover {
+        background-color: white;
+        color: $secondary;
+    }
 }
 
-.collapse .navbar-nav .nav-item .btn:hover {
-    background-color: white;
-    color: $secondary;
-}
-
-.botones .btn:hover {
+.buttons .btn:hover {
     background-color: white;
     color: $primary;
 }
 
-.botones .boton3:hover {
+.buttons .button3:hover {
     background-color: white;
     color: black;
     border-color: black;
@@ -117,24 +115,22 @@ li {
     color: $secondary;
 }
 
-.boton4 .boton-contacto {
+.button4 .contact-button {
     color: white;
+    &:hover {
+        color: $secondary;
+        background-color: white;
+    }
 }
 
-.boton4 .boton-contacto:hover {
-    color: $secondary;
-    background-color: white;
-}
-
-.pie .pie-opciones li a {
+.footer .footer-options li a {
     color: white;
-}
-.pie .pie-opciones li a:hover {
-    color: $secondary;
+    &:hover {
+        color: $secondary;
+    }
 }
 
-
-.redes .rrss:hover {
+.social .social-network:hover {
     filter: brightness(0) saturate(100%) brightness(0) saturate(100%) invert(61%) sepia(31%) saturate(5891%) hue-rotate(325deg) brightness(100%) contrast(97%);
 }
 
