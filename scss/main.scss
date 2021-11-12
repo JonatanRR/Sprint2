@@ -6,7 +6,6 @@ $navbar-light-toggler-icon-bg: url(/images/icon-hamburger.svg);
 $accordion-button-icon: url(/images/icon-arrow.svg);
 $form-feedback-icon-invalid: url(/images/icon-error.svg);
 
-
 .pic {
     width: 70%;
 }
@@ -21,10 +20,10 @@ p {
 
 .stain {
     height: 70%;
-    width: 100%;
+    width: 93%;
     left: 25%;
     top: 25%;
-    border-radius: 200px;
+    border-bottom-left-radius: 100px;
     z-index: -1;
 }
 
@@ -46,12 +45,8 @@ p {
     z-index: -1;
 }
 
-.nav-tabs, .nav-link, .dots {
+.dots {
     width: 100%;
-}
-
-.nav-item {
-    width: 33%;
 }
 
 .nav-tabs .nav-item .nav-link {
